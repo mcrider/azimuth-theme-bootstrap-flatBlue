@@ -3,6 +3,8 @@ Package.describe({
 });
 
 Package.on_use(function (api) {
+  api.use(['bootstrap'], 'client');
+
   api.add_files([
     'theme/flatBlue.css',
     'theme/fonts.css'
